@@ -15,7 +15,7 @@ public class Proyect1 {
         
         System.out.println("-------------------- PRIMER CLIENTE --------------------");
         var mascota = new Mascota("Pelusa","Pastors",5);
-        var persona = new Dueno("Andres", "Azogues",mascota);
+        var persona = new Dueno("Andres", "Azogues");
         var atencion = new Atencion("Medico",4,mascota);
         mascota.setNombreDueno(persona);
         
@@ -27,7 +27,7 @@ public class Proyect1 {
         
         System.out.println("-------------------- SEGUNDO CLIENTE --------------------");
         var mascota1 = new Mascota("Rocko","Pusgsss",3);
-        var persona1 = new Dueno("Alvaro", "Cuenca",mascota1);
+        var persona1 = new Dueno("Alvaro", "Cuenca");
         var atencion1 = new Atencion("Peluqueria",2,mascota1);
         mascota1.setNombreDueno(persona1);
         
@@ -39,7 +39,7 @@ public class Proyect1 {
         
         System.out.println("-------------------- TERCER CLIENTE --------------------");
         var mascota2 = new Mascota("Dawrins","Beagles",8);
-        var persona2 = new Dueno("Alvaro", "Quito",mascota2);
+        var persona2 = new Dueno("Alvaro", "Quito");
         var atencion2 = new Atencion("Vacunacion",1,mascota2);
         mascota2.setNombreDueno(persona2);
         
