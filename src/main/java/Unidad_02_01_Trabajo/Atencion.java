@@ -105,7 +105,10 @@ public class Atencion {
 
     @Override
     public String toString() {
-        return "Atencion{" + "tipoAtencion=" + tipoAtencion + ", horaIngreso=" + horaIngreso + ", veterinario=" + veterinario + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta + ", recetaList=" + recetaList[0].toString() + ", nombreMascota=" + nombreMascota + '}';
+        return "Atencion{" + "tipoAtencion=" + tipoAtencion + ", horaIngreso=" + horaIngreso + ", veterinario=" + veterinario 
+                + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta + ", receta 1=" 
+                + recetaList[0].toString() +" receta2 " + recetaList[1].toString()+
+                " receta 3 "+recetaList[2].toString()+", nombreMascota=" + nombreMascota + '}';
     }
     
     
