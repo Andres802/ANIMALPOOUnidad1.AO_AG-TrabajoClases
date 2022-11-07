@@ -5,6 +5,9 @@
 
 package animalpoounidad1.ao_ag.trabajoclases;
 
+import java.time.LocalDate;
+import java.time.Month;
+
 /**
  *
  * @author ochoa
@@ -49,6 +52,8 @@ public class Proyect1 {
         System.out.println("Su origen de la mascota es de: " + mascota2.getRazaPais());
         System.out.println(""+ atencion2.mostrarInfo());
         
-        
+        System.out.println("**-------------------------------------------**");
+        var fechaAtencion = new Atencion(LocalDate.of(2022, Month.OCTOBER, 7));
+        System.out.println("" + fechaAtencion.toString());
     }
 }
