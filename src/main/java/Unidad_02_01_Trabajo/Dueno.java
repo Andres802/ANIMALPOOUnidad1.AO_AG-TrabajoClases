@@ -61,6 +61,17 @@ public class Dueno {
     public void setTelefonoList(Telefono[] telefonoList) {
         this.telefonoList = telefonoList;
     }
+    public void telefonos(){
+       
+        
+        for(int x = 0; x<this.cantidadTelefono ;x++)
+        {
+            System.out.println("sus telefonos son:");
+            System.out.println(telefonoList[x]);           
+            }
+          
+  
+    }
 
     @Override
     public String toString() {

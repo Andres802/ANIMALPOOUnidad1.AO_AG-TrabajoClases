@@ -107,8 +107,8 @@ public class Atencion {
         
         for(int x = 0; x<this.CantidadReceta ;x++)
         {
-            System.out.println("sus recetas son");
-            System.out.println(recetaList[x].toString());           
+            System.out.println("sus recetas " + x + " son");
+            System.out.println(recetaList[x]);           
             }
           
   
@@ -117,7 +117,7 @@ public class Atencion {
     @Override
     public String toString() {
         return "Atencion{" + "tipoAtencion=" + tipoAtencion + ", horaIngreso=" + horaIngreso + ", veterinario=" + veterinario 
-                + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta + ", receta 1=" 
+                + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta
                 ;
     }
     

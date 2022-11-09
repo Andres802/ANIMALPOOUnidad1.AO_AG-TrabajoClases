@@ -22,6 +22,8 @@ public class Principal {
         andres.nuevoTelefono("0998455543", 0, "Trabajo", "Movistar",1);
         andres.nuevoTelefono("09988833", 125, "Casa", "tuenti",2);
         System.out.println(andres.toString());
+        andres.telefonos();
+        
         
         System.out.println("-----------------Receta ----------------");
        
