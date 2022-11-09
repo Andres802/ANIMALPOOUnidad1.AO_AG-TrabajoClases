@@ -102,13 +102,23 @@ public class Atencion {
     public void setNombreMascota(Mascota nombreMascota) {
         this.nombreMascota = nombreMascota;
     }
+    public void recetas(){
+       
+        
+        for(int x = 0; x<this.CantidadReceta ;x++)
+        {
+            System.out.println("sus recetas son");
+            System.out.println(recetaList[x].toString());           
+            }
+          
+  
+    }
 
     @Override
     public String toString() {
         return "Atencion{" + "tipoAtencion=" + tipoAtencion + ", horaIngreso=" + horaIngreso + ", veterinario=" + veterinario 
                 + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta + ", receta 1=" 
-                + recetaList[0].toString() +" receta2 " + recetaList[1].toString()+
-                " receta 3 "+recetaList[2].toString()+", nombreMascota=" + nombreMascota + '}';
+                ;
     }
     
     

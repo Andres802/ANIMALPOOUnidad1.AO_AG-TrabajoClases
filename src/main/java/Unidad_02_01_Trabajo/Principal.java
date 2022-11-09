@@ -25,11 +25,12 @@ public class Principal {
         
         System.out.println("-----------------Receta ----------------");
        
-        var atencion = new Atencion("Medico",2,"Daniel",LocalDate.of(2021, Month.MARCH, 3),23,5);
+        var atencion = new Atencion("Medico",2,"Daniel",LocalDate.of(2021, Month.MARCH, 3),23,3);
         atencion.nuevaReceta("ibuprofeno", 3, "tomar tres veces al dia", 0);
         atencion.nuevaReceta("paracetamol", 2, "tomar 1 ves al dia", 1);
         atencion.nuevaReceta("buscapinas", 3, "tomar dos veces al dia", 2);
         System.out.println(atencion.toString());
+        atencion.recetas();
     }
 
 }
