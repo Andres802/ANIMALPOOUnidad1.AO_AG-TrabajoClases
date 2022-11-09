@@ -64,10 +64,10 @@ public class Dueno {
     public void telefonos(){
        
         
-        for(int x = 0; x<this.cantidadTelefono ;x++)
+        for(var telefono: this.telefonoList)
         {
             System.out.println("sus telefonos son:");
-            System.out.println(telefonoList[x]);           
+            System.out.println(telefono.toString()+"\n");           
             }
           
   

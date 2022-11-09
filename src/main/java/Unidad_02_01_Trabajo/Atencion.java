@@ -108,7 +108,7 @@ public class Atencion {
         for(int x = 0; x<this.CantidadReceta ;x++)
         {
             System.out.println("sus recetas " + x + " son");
-            System.out.println(recetaList[x]);           
+            System.out.println(recetaList[x]+"\n");           
             }
           
   
