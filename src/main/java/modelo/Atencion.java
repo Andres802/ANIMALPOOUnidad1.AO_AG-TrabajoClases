@@ -101,23 +101,18 @@ public class Atencion {
     public void setNombreMascota(Mascota nombreMascota) {
         this.nombreMascota = nombreMascota;
     }
-    public void recetas(){
-       
-        
-        for(int x = 0; x<this.CantidadReceta ;x++)
-        {
-            System.out.println("sus recetas " + x + " son");
-            System.out.println(recetaList[x]+"\n");           
-            }
-          
-  
-    }
+    
 
     @Override
     public String toString() {
-        return "Atencion{" + "tipoAtencion=" + tipoAtencion + ", horaIngreso=" + horaIngreso + ", veterinario=" + veterinario 
-                + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta
+        var retorno =  "Atencion{" + "tipoAtencion=" + tipoAtencion + ", horaIngreso=" + horaIngreso + ", veterinario=" + veterinario 
+                + ", fecha=" + fecha + ", costo=" + costo + ", CantidadReceta=" + CantidadReceta + "\n"
                 ;
+        for(var atencion: this.recetaList)
+        {
+            retorno += atencion.toString()+"\n";          
+            }
+         return retorno;
     }
     
     

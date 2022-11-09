@@ -24,7 +24,7 @@ public class Principal {
         andres.nuevoTelefono("0998455543", 0, "Trabajo", "Movistar",1);
         andres.nuevoTelefono("09988833", 125, "Casa", "tuenti",2);
         System.out.println(andres.toString());
-        andres.telefonos();
+        
         
         
         System.out.println("-----------------Receta ----------------");
@@ -34,7 +34,7 @@ public class Principal {
         atencion.nuevaReceta("paracetamol", 2, "tomar 1 ves al dia", 1);
         atencion.nuevaReceta("buscapinas", 3, "tomar dos veces al dia", 2);
         System.out.println(atencion.toString());
-        atencion.recetas();
+        
     }
 
 }

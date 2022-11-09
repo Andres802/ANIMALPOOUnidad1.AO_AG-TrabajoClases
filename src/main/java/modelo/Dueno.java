@@ -60,21 +60,17 @@ public class Dueno {
     public void setTelefonoList(Telefono[] telefonoList) {
         this.telefonoList = telefonoList;
     }
-    public void telefonos(){
-       
-        
-        for(var telefono: this.telefonoList)
-        {
-            System.out.println("sus telefonos son:");
-            System.out.println(telefono.toString()+"\n");           
-            }
-          
-  
-    }
+    
 
     @Override
     public String toString() {
-        return "Dueno{" + "nombre=" + nombre + ", cedula=" + cedula + ", cantidadTelefono=" + cantidadTelefono + ", telefonoList=" + telefonoList[0].toString() + '}';
+        var retorno =  "Dueno{" + "nombre=" + nombre + ", cedula=" + cedula + ", cantidadTelefono=" + cantidadTelefono + ", telefonoList=" + telefonoList[0].toString() +"\n";
+         
+         for(var telefono: this.telefonoList)
+        {
+            retorno += telefono.toString()+"\n";          
+            }
+         return retorno;
     }
     
     
