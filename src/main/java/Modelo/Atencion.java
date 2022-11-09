@@ -2,9 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Unidad_02_01_Trabajo;
+package Modelo;
 
-import animalpoounidad1.ao_ag.trabajoclases.*;
 import java.time.LocalDate;
 
 /**
